@@ -18,6 +18,9 @@ nav {
     letter-spacing: 1px;
 
     &:hover {
+      background: white;
+      border: 3px solid white;
+      color: red;
       cursor: pointer;
     }
   }
