@@ -1,0 +1,18 @@
+.display {
+  display: block;
+}
+
+.active {
+  background: white;
+  color: red;
+  border: 3px solid white;
+  transition: 0.3s;
+}
+
+.opacity {
+  opacity: 1;
+}
+
+.transform {
+  transform: translateY(0);
+}

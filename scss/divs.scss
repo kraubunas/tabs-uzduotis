@@ -1,0 +1,23 @@
+div {
+  text-align: justify;
+  margin: 20px;
+  display: none;
+  transform: translateY(25px);
+  transition: 1s;
+
+  img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin: 20px 0;
+    opacity: 0;
+    transition: 1s;
+  }
+
+  p {
+    opacity: 0;
+    transition: 1s;
+    transform: translateY(25px);
+  }
+}
